@@ -169,7 +169,7 @@ const Index = () => {
             
             {/* Main Heading with Animation */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-8 leading-tight animate-slide-up max-w-3xl">
-              Welcome to Your <span className="text-sage">Premium Empanada</span> Store
+              Welcome to Your <span className="text-sage">Flavorful Empanada</span> Journey
             </h1>
             
             {/* Description with Animation */}
