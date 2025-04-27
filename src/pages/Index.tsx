@@ -148,9 +148,9 @@ const Index = () => {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/empanada.jpg"
-            alt="Delicious Empanadas"
-            className="w-full h-full object-cover brightness-50"
+            src="images/empanada.jpg"
+            alt="Empanada"
+            className="w-full h-full object-cover rounded-lg"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-brown/90 via-brown/50 to-transparent"></div>
           {/* Animated Background Elements */}
@@ -265,9 +265,9 @@ const Index = () => {
             <div className="relative">
               <div className="w-full max-w-md mx-auto aspect-[3/4] rounded-2xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
                 <img 
-                  src="/images/empanada2.jpg" 
-                  alt="Our Kitchen" 
-                  className="w-full h-full object-cover object-center"
+                  src="images/empanada2.jpg" 
+                  alt="Empanada"
+                  className="w-full h-full object-cover rounded-lg"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-brown/50 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-4 text-beige">
@@ -302,7 +302,11 @@ const Index = () => {
                   <div className="flex-[0_0_85%] sm:flex-[0_0_45%] lg:flex-[0_0_30%] min-w-0">
                     <div className="bg-beige/40 backdrop-blur-sm rounded-2xl p-4 shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 group border-2 border-beige/50 hover:border-beige/70">
                       <div className="relative h-64 mb-4 rounded-xl overflow-hidden">
-                        <img src="/images/cheesy_potato_pumpkin.jpg" alt="Cheesy Potato Pumpkin" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                        <img 
+                          src="images/cheesy_potato_pumpkin.jpg"
+                          alt="Cheesy Potato Pumpkin"
+                          className="w-full h-full object-cover rounded-lg"
+                        />
                         <div className="absolute inset-0 bg-gradient-to-t from-beige/90 via-beige/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                           <p className="text-brown/90 text-sm font-light tracking-wide">Our signature empanada with a perfect blend of flavors</p>
@@ -332,7 +336,11 @@ const Index = () => {
                   <div className="flex-[0_0_85%] sm:flex-[0_0_45%] lg:flex-[0_0_30%] min-w-0">
                     <div className="bg-beige/40 backdrop-blur-sm rounded-2xl p-4 shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 group border-2 border-beige/50 hover:border-beige/70">
                       <div className="relative h-64 mb-4 rounded-xl overflow-hidden">
-                        <img src="/images/cheesy_corn.jpg" alt="Cheesy Corn" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                        <img 
+                          src="images/cheesy_corn.jpg"
+                          alt="Cheesy Corn"
+                          className="w-full h-full object-cover rounded-lg"
+                        />
                         <div className="absolute inset-0 bg-gradient-to-t from-beige/90 via-beige/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                           <p className="text-brown/90 text-sm font-light tracking-wide">Sweet corn with melted cheese in a crispy crust</p>
@@ -359,7 +367,11 @@ const Index = () => {
                   <div className="flex-[0_0_85%] sm:flex-[0_0_45%] lg:flex-[0_0_30%] min-w-0">
                     <div className="bg-beige/40 backdrop-blur-sm rounded-2xl p-4 shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 group border-2 border-beige/50 hover:border-beige/70">
                       <div className="relative h-64 mb-4 rounded-xl overflow-hidden">
-                        <img src="/images/apple_pie.jpg" alt="Apple Pie" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                        <img 
+                          src="images/apple_pie.jpg"
+                          alt="Apple Pie"
+                          className="w-full h-full object-cover rounded-lg"
+                        />
                         <div className="absolute inset-0 bg-gradient-to-t from-beige/90 via-beige/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                           <p className="text-brown/90 text-sm font-light tracking-wide">Sweet and tangy apple filling in our signature crust</p>
@@ -386,7 +398,11 @@ const Index = () => {
                   <div className="flex-[0_0_85%] sm:flex-[0_0_45%] lg:flex-[0_0_30%] min-w-0">
                     <div className="bg-beige/40 backdrop-blur-sm rounded-2xl p-4 shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 group border-2 border-beige/50 hover:border-beige/70">
                       <div className="relative h-64 mb-4 rounded-xl overflow-hidden">
-                        <img src="/images/creamy_pechay.jpg" alt="Creamy Pechay" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                        <img 
+                          src="images/creamy_pechay.jpg"
+                          alt="Creamy Pechay"
+                          className="w-full h-full object-cover rounded-lg"
+                        />
                         <div className="absolute inset-0 bg-gradient-to-t from-beige/90 via-beige/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                           <p className="text-brown/90 text-sm font-light tracking-wide">Creamy vegetable filling in a crispy crust</p>
@@ -441,7 +457,11 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-beige/40 backdrop-blur-sm rounded-2xl p-4 shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 group border-2 border-beige/50 hover:border-beige/70">
                 <div className="relative h-64 mb-4 rounded-xl overflow-hidden">
-                  <img src="/images/lemonade.jpg" alt="Blue Lemonade" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                  <img 
+                    src="images/lemonade.jpg"
+                    alt="Lemonade"
+                    className="w-full h-full object-cover rounded-lg"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-beige/90 via-beige/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                     <p className="text-brown/90 text-sm font-light tracking-wide">Refreshing blue lemonade drink</p>
@@ -465,7 +485,11 @@ const Index = () => {
               </div>
               <div className="bg-beige/40 backdrop-blur-sm rounded-2xl p-4 shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 group border-2 border-beige/50 hover:border-beige/70">
                 <div className="relative h-64 mb-4 rounded-xl overflow-hidden">
-                  <img src="/images/buko_juice.jpg" alt="Buko Juice" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                  <img 
+                    src="images/buko_juice.jpg"
+                    alt="Buko Juice"
+                    className="w-full h-full object-cover rounded-lg"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-beige/90 via-beige/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                     <p className="text-brown/90 text-sm font-light tracking-wide">Fresh coconut juice</p>

@@ -67,7 +67,7 @@ const Menu = () => {
                     <ProductCard 
                       name="Cheesy Potato Pumpkin" 
                       price={39}
-                      image="/images/cheesy_potato_pumpkin.jpg"
+                      image="images/cheesy_potato_pumpkin.jpg"
                       description="A delightful blend of creamy potato and sweet pumpkin with melted cheese"
                       isPopular={true}
                     />
@@ -76,7 +76,7 @@ const Menu = () => {
                     <ProductCard 
                       name="Cheesy Corn" 
                       price={29}
-                      image="/images/cheesy_corn.jpg"
+                      image="images/cheesy_corn.jpg"
                       description="Sweet corn kernels mixed with gooey cheese in a crispy crust"
                     />
                   </div>
@@ -84,7 +84,7 @@ const Menu = () => {
                     <ProductCard 
                       name="Apple Pie" 
                       price={29}
-                      image="/images/apple_pie.jpg"
+                      image="images/apple_pie.jpg"
                       description="Classic apple pie filling with cinnamon in a flaky pastry"
                     />
                   </div>
@@ -92,7 +92,7 @@ const Menu = () => {
                     <ProductCard 
                       name="Creamy Pechay" 
                       price={29}
-                      image="/images/creamy_pechay.jpg"
+                      image="images/creamy_pechay.jpg"
                       description="Fresh pechay leaves in a creamy sauce, wrapped in golden pastry"
                     />
                   </div>
@@ -114,7 +114,7 @@ const Menu = () => {
                     <ProductCard 
                       name="Blue Lemonade" 
                       price={29}
-                      image="/images/lemonade.jpg"
+                      image="images/lemonade.jpg"
                       description="Refreshing blue lemonade with a hint of mint"
                     />
                   </div>
@@ -122,7 +122,7 @@ const Menu = () => {
                     <ProductCard 
                       name="Buko Juice" 
                       price={29}
-                      image="/images/buko_juice.jpg"
+                      image="images/buko_juice.jpg"
                       description="Fresh coconut water with tender coconut meat"
                     />
                   </div>
@@ -160,7 +160,7 @@ const Menu = () => {
                     <ProductCard 
                       name="Cheese Sauce" 
                       price={10}
-                      image="/images/cheese_sauce.jpg"
+                      image="images/cheese_sauce.jpg"
                       description="Smooth and tangy cheese sauce for extra flavor"
                     />
                   </div>
@@ -205,7 +205,7 @@ const ProductCard = ({
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-lg"
         />
         {isPopular && (
           <div className="absolute top-2 sm:top-3 right-2 sm:right-3 bg-sage text-white px-2 py-0.5 rounded-full text-xs font-medium">
