@@ -139,30 +139,39 @@ const Menu = () => {
                     Sauces
                   </h2>
                 </div>
-                <div className="row g-4 g-md-6">
-                  <div className="col-12 col-sm-6 col-lg-3">
-                    <ProductCard 
-                      name="Chocolate Dip" 
-                      price={10}
-                      image="/images/chocolate_dip.jpg"
-                      description="Rich and creamy chocolate sauce for dipping"
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <img 
+                      src="images/cheese_sauce.jpg" 
+                      alt="Cheese Sauce" 
+                      className="w-full h-40 object-cover"
                     />
+                    <div className="p-4">
+                      <h3 className="text-lg font-semibold text-gray-800 mb-2">Cheese Sauce</h3>
+                      <p className="text-sm text-gray-600">Creamy and rich cheese sauce</p>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-6 col-lg-3">
-                    <ProductCard 
-                      name="Garlic Mayo" 
-                      price={10}
-                      image="/images/garlic_mayo.jpg"
-                      description="Creamy garlic mayonnaise with a hint of herbs"
+                  <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <img 
+                      src="images/garlic_mayo.jpg" 
+                      alt="Garlic Mayo" 
+                      className="w-full h-40 object-cover"
                     />
+                    <div className="p-4">
+                      <h3 className="text-lg font-semibold text-gray-800 mb-2">Garlic Mayo</h3>
+                      <p className="text-sm text-gray-600">Garlic-infused mayonnaise</p>
+                    </div>
                   </div>
-                  <div className="col-12 col-sm-6 col-lg-3">
-                    <ProductCard 
-                      name="Cheese Sauce" 
-                      price={10}
-                      image="images/cheese_sauce.jpg"
-                      description="Smooth and tangy cheese sauce for extra flavor"
+                  <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <img 
+                      src="images/chocolate_dip.jpg" 
+                      alt="Chocolate Dip" 
+                      className="w-full h-40 object-cover"
                     />
+                    <div className="p-4">
+                      <h3 className="text-lg font-semibold text-gray-800 mb-2">Chocolate Dip</h3>
+                      <p className="text-sm text-gray-600">Rich and creamy chocolate sauce</p>
+                    </div>
                   </div>
                 </div>
               </div>

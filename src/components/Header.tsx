@@ -12,7 +12,7 @@ const Header = () => {
         <nav className="py-4 flex justify-between items-center">
           <Link to="/" className="flex items-center gap-3 group">
             <img 
-              src="/images/logo.png" 
+              src="images/logo.png" 
               alt="EmpaNutriVerse Logo" 
               className="w-10 h-10 md:w-12 md:h-12 object-contain transition-transform duration-300 group-hover:scale-110"
             />
