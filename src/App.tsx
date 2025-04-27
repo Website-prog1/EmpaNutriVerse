@@ -24,12 +24,13 @@ const ScrollToTop = () => {
   return null;
 };
 
+// HashRouter for GitHub Pages
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/EmpaNutriVerse">
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />

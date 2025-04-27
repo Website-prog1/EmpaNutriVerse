@@ -10,7 +10,13 @@ export default defineConfig(({ mode }) => ({
     outDir: 'dist',
     assetsDir: 'assets',
     emptyOutDir: true,
-    sourcemap: true
+    sourcemap: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+        '404': path.resolve(__dirname, 'index.html')
+      }
+    }
   },
   server: {
     host: true,
