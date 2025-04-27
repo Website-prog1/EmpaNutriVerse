@@ -161,19 +161,19 @@ const Index = () => {
         <div className="container mx-auto px-4 relative z-20 text-beige">
           <div className="max-w-2xl pt-32">
             {/* Animated Tagline */}
-            <div className="animate-fade-in mb-12">
-              <span className="inline-block px-6 py-2 bg-sage/20 backdrop-blur-sm rounded-full text-sage text-lg font-medium tracking-wide">
+            <div className="animate-fade-in mb-6 sm:mb-12">
+              <span className="inline-block px-4 sm:px-6 py-2 bg-sage/20 backdrop-blur-sm rounded-full text-sage text-base sm:text-lg font-medium tracking-wide">
                 Delicious & Nutritious
               </span>
             </div>
             
             {/* Main Heading with Animation */}
-            <h1 className="text-4xl md:text-7xl font-bold mb-8 leading-tight animate-slide-up max-w-3xl">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-8 leading-tight animate-slide-up max-w-3xl">
               Welcome to Your <span className="text-sage">Premium Empanada</span> Store
             </h1>
             
             {/* Description with Animation */}
-            <p className="text-lg md:text-2xl mb-12 text-beige/90 animate-slide-up delay-100 max-w-2xl leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-12 text-beige/90 animate-slide-up delay-100 max-w-2xl leading-relaxed">
               Savor the perfect harmony of crispy crust and rich, flavorful fillings in every bite
             </p>
             
@@ -181,7 +181,7 @@ const Index = () => {
             <div className="animate-slide-up delay-200 relative z-30">
               <Link 
                 to="/menu"
-                className="group relative bg-sage hover:bg-sage/90 text-beige text-sm sm:text-base px-6 py-3 rounded-full w-auto overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer inline-flex items-center justify-center"
+                className="group relative bg-sage hover:bg-sage/90 text-beige text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3 rounded-full w-auto overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer inline-flex items-center justify-center"
               >
                 <span className="relative z-10 flex items-center justify-center">
                   View Menu 
@@ -194,10 +194,10 @@ const Index = () => {
         </div>
 
         {/* Decorative Elements */}
-        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-beige to-transparent z-10"></div>
+        <div className="absolute bottom-0 left-0 w-full h-24 sm:h-32 bg-gradient-to-t from-beige to-transparent z-10"></div>
         
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
+        <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
           <div className="w-6 h-10 border-2 border-beige rounded-full flex justify-center">
             <div className="w-1 h-2 bg-beige rounded-full mt-2"></div>
           </div>
@@ -205,19 +205,19 @@ const Index = () => {
       </section>
 
       {/* Information Section */}
-      <section id="about" className="py-20 bg-beige">
+      <section id="about" className="py-12 sm:py-20 bg-beige">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
               <div className="space-y-3">
                 <span className="text-sage font-semibold tracking-wider">OUR STORY</span>
-                <h2 className="text-3xl md:text-4xl font-bold text-brown">Why Choose <span className="text-sage">EmpaNutriVerse</span>?</h2>
-                <p className="text-brown/80 text-lg leading-relaxed">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brown">Why Choose <span className="text-sage">EmpaNutriVerse</span>?</h2>
+                <p className="text-brown/80 text-base sm:text-lg leading-relaxed">
                   A proudly Filipino-owned food business based in Valenzuela City, Metro Manila. We're not just serving empanadas – we're creating a universe of flavors that nourishes both body and soul.
                 </p>
               </div>
               
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="flex items-start gap-3 p-3 bg-brown/5 rounded-xl hover:bg-brown/10 transition-colors duration-300">
                   <div className="w-10 h-10 bg-sage/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <Leaf className="w-5 h-5 text-sage" />
@@ -243,15 +243,6 @@ const Index = () => {
                   <div>
                     <h3 className="font-semibold text-brown">Community Love</h3>
                     <p className="text-sm text-brown/60">Supporting local farmers and producers</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3 p-3 bg-brown/5 rounded-xl hover:bg-brown/10 transition-colors duration-300">
-                  <div className="w-10 h-10 bg-sage/10 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Award className="w-5 h-5 text-sage" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-brown">Quality Guaranteed</h3>
-                    <p className="text-sm text-brown/60">Consistent excellence in every bite</p>
                   </div>
                 </div>
               </div>
