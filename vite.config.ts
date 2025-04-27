@@ -5,9 +5,11 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/EmpaNutriVerse/' : '/',
   server: {
-    host: "::",
-    port: 8080,
+    host: true,
+    port: 3000,
+    open: true
   },
   plugins: [
     react(),
