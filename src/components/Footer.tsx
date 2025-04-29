@@ -1,5 +1,4 @@
-
-import { Facebook, Instagram } from "lucide-react";
+import { Facebook, Instagram, Music } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -27,11 +26,14 @@ const Footer = () => {
           <div>
             <h3 className="font-display text-2xl mb-4">Follow Us</h3>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-sage transition-colors">
+              <a href="https://www.facebook.com/share/1ARj4WaoPr/" target="_blank" rel="noopener noreferrer" className="hover:text-sage transition-colors">
                 <Facebook className="w-6 h-6" />
               </a>
-              <a href="#" className="hover:text-sage transition-colors">
+              <a href="https://www.instagram.com/empanutriverse_?igsh=MTlmOWJ3b3ZmbHdkYg==" target="_blank" rel="noopener noreferrer" className="hover:text-sage transition-colors">
                 <Instagram className="w-6 h-6" />
+              </a>
+              <a href="https://www.tiktok.com/@official_empanutriverse?_t=ZS-8vvjJQbGL3f&_r=1" target="_blank" rel="noopener noreferrer" className="hover:text-sage transition-colors">
+                <Music className="w-6 h-6" />
               </a>
             </div>
           </div>

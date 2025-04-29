@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MapPin, Phone, Mail, Clock, ChefHat, Leaf, Heart, Award, Facebook, Instagram } from "lucide-react";
+import { ArrowRight, MapPin, Phone, Mail, Clock, ChefHat, Leaf, Heart, Award, Facebook, Instagram, Music } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import useEmblaCarousel from 'embla-carousel-react';
 import { useCallback, useState, useEffect } from 'react';
@@ -570,13 +570,16 @@ const Index = () => {
 
               <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 group border-2 border-beige/20 hover:border-sage/50">
                 <div className="flex items-start gap-4">
-                  <div className="flex gap-2">
-                    <div className="w-12 h-12 bg-sage/10 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-sage/20 transition-colors duration-300">
+                  <div className="flex gap-4">
+                    <a href="https://www.facebook.com/share/1ARj4WaoPr/" target="_blank" rel="noopener noreferrer" className="hover:text-sage transition-colors">
                       <Facebook className="w-6 h-6 text-sage" />
-                    </div>
-                    <div className="w-12 h-12 bg-sage/10 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-sage/20 transition-colors duration-300">
+                    </a>
+                    <a href="https://www.instagram.com/empanutriverse_?igsh=MTlmOWJ3b3ZmbHdkYg==" target="_blank" rel="noopener noreferrer" className="hover:text-sage transition-colors">
                       <Instagram className="w-6 h-6 text-sage" />
-                    </div>
+                    </a>
+                    <a href="https://www.tiktok.com/@official_empanutriverse?_t=ZS-8vvjJQbGL3f&_r=1" target="_blank" rel="noopener noreferrer" className="hover:text-sage transition-colors">
+                      <Music className="w-6 h-6 text-sage" />
+                    </a>
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-brown/90">Follow Us</h3>
